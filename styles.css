@@ -1,0 +1,29 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Blue-100: hsl(225, 100%, 94%);
+    --Blue-700: hsl(245, 75%, 52%);
+    --Blue-50: hsl(225, 100%, 98%);
+    --Gray-600: hsl(224, 23%, 55%);
+    --Blue-950: hsl(223, 47%, 23%);
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: var(--Blue-100);
+}
+
+.container {
+    /* height: 500px;
+    width: 375px; */
+    /* border: 1px solid #ccc; */
+}
